@@ -19,8 +19,8 @@ public class Book {
         return this.yearOfPublication;
     }
 
-    public String getAuthor() {
-        return author.getFullName();
+    public Author getAuthor() {
+        return author;
     }
 
     public void setYearOfPublication(int yearOfPublication) {
